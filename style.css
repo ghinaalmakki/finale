@@ -1,0 +1,70 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#a42946;
+}
+ul li{
+  font-weight: bold;
+  font-size:large;
+}
+ol li{
+  font-weight: lighter;
+}
+body{
+    background-color: rgb(255, 241, 244);
+} 
+.topnav {
+    background-color: #ffc1cf;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ffd7e1;
+    color: #f56687;
+  }
+  
+
+  .topnav a.active {
+    background-color: #ff7e9c;
+    color: white;
+  }
+  .container {
+margin:10px;
+width: 90%;
+border-radius:50px;
+border: 6px dotted #ff7e9c;
+padding: 50px;
+background-color: #ffc1cf;
+  }
+  #secret{
+margin-bottom: 400px;
+  }
+/* taken from developer.mozilla.org */
+p {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.shh {
+  margin-bottom:auto;
+  font-size: 10px;
+}
+#secret img:hover{
+filter: invert(1);
+transition: 1s;
+}
+
+#art img:hover{
+  filter:grayscale(1);
+  transition:1s;
+}
+button{
+  background-color:#ffcbd7;
+}
